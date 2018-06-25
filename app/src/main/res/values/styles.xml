@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="android:spinnerDropDownItemStyle">@style/DropDownItem</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+    </style>
+
+    <style name="DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:divider">@color/colorPrimaryDark</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="DropDownItem" parent="@android:style/Widget.Holo.Light.DropDownItem.Spinner">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SpinnerItem" parent="@android:style/Widget.Holo.TextView.SpinnerItem">
+        <item name="android:textAppearance">?android:attr/textAppearanceInverse</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="title_style">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="user_details_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
